@@ -374,9 +374,9 @@
     </section>
 
      <section id="topic">
+       <div class="fade-in">  
        <h3 class="fade-in">トピック</h3>
-       <p class="about-text">
-       <p class="fade-in"> 
+       <p class="about-text"> 
            2025.11.13 創業<br>
            2025.11.14 サイト創立<br>
            2025.11.20 新・公式サイト創立<br>
@@ -384,6 +384,7 @@
            
            
        </p>
+       </div>    
      </section> 
 
    <section id="message">
@@ -582,6 +583,7 @@
 
 
 
+<button id="backToTop">▲</button>
 
 
 
@@ -600,8 +602,6 @@
     }, { threshold: 0.2 });
 
     document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-
-<button id="backToTop">▲</button>
 
 
     const backToTop = document.getElementById("backToTop");
